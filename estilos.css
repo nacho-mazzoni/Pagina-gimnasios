@@ -1,65 +1,114 @@
-h1{
-   position: static;
-   object-position: center;
-   width: 100%;
+body{
+    min-height: 100vh;
+    background: url("home Gym pc.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin:0%;
 }
 
+h1{
+   color: white;
+   font-size: 50px;
+   width: auto;
+   padding-left: 20px;
+   padding-top: 10px;
+   padding-right: 20px;
+   padding-bottom: 10px;
+}
 nav{
-    max-height: 50px;
-    max-width: 100%;
+    color: lightgray;
+    font-size: 20px;
+    max-width: auto;
     display: flex;
+    padding-left: 20px;
+}
+.botongym{
+    display: inline-block;
+    padding: 25px 0px;
+    background-color: lightgrey;
+    text-decoration: none;
+    font-size: 15px;
+}
+.botongym:hover{
+    background-color: grey;
 }
 
 .gym1{
-    max-height: 50px;
+    max-height: 20px;
     max-width: 25%;
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .gym2{
-    max-height: 50px;
+    max-height: 20px;
     max-width: 50%;
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .gym3{
-    max-height: 50px;
+    max-height: 20px;
     max-width: 75%;
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .gym4{
-    max-height: 50px;
+    max-height: 20px;
     max-width: 100%;
     float: left;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 article{
-    max-width: 50%;
-    max-height: 100%;
+    color: white;
+    font-size: 20px;
+    width: auto;
+    height: auto;
     display: flex;
+    padding: 10px;
 }
 h2{
     margin: 20px;
 }
 div.izquierda{
-    width: 25%;
+    min-width: 25%;
     height: auto;
     float: left;
+    padding: 10px;
 }
 div.derecha{
-    width: 25%;
+    max-width: 50%;
     height: auto;
-    float: right;
+    float: left;
+    padding: 10px;
 }
 aside{
+    color: white;
+    font-size: 20px;
     object-position: center;
     margin-left: 50px;
     width: auto;
     height: auto;
 }
-.botones{
-    width: auto;
-    height: auto;
-    float:inline-start;
+.links{
+    align-items: center;
+    display: inline-table;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: lightgrey;
+    text-decoration: double;
 }
