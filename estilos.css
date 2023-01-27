@@ -1,6 +1,6 @@
 body{
     min-height: 100vh;
-    background: url("home Gym pc.jpg");
+    background: url("home\ Gym\ pc2.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -9,7 +9,8 @@ body{
 
 h1{
    color: white;
-   font-size: 50px;
+   font-size: 70px;
+   font-family: 'Staatliches', cursive;
    width: auto;
    padding-left: 20px;
    padding-top: 10px;
@@ -20,7 +21,7 @@ nav{
     color: lightgray;
     font-size: 20px;
     max-width: auto;
-    display: flex;
+    height: 80px;
     padding-left: 20px;
 }
 .botongym{
@@ -37,7 +38,6 @@ nav{
 .gym1{
     max-height: 20px;
     max-width: 25%;
-    float: left;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -45,7 +45,6 @@ nav{
 .gym2{
     max-height: 20px;
     max-width: 50%;
-    float: left;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -53,7 +52,6 @@ nav{
 .gym3{
     max-height: 20px;
     max-width: 75%;
-    float: left;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -61,7 +59,6 @@ nav{
 .gym4{
     max-height: 20px;
     max-width: 100%;
-    float: left;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -92,6 +89,7 @@ div.derecha{
 aside{
     color: white;
     font-size: 20px;
+    font-family: 'Staatliches', cursive;
     object-position: center;
     margin-left: 50px;
     width: auto;
@@ -103,12 +101,20 @@ aside{
     padding-bottom: 10px;
     font-size: 30px;
 }
-
+ul{
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
 a{
     color: white;
     text-decoration: none;
 }
 a:hover{
     color: lightgrey;
-    text-decoration: double;
+}
+.Preguntas{
+    width: 60px;
+    height: 20px;
 }
